@@ -1,0 +1,74 @@
+@media screen and (max-width : 768px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        background-color: #d4d1d1;
+        color: #2c2c2c;
+        padding: 10px 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10PX;
+
+    }
+    
+    nav p {
+        font-size: 1.5rem;
+        color: #272727;
+        width: 100%;
+        margin-left: 20px;
+    }    
+    nav ul{
+       display: none;
+       flex-wrap: wrap;
+    }
+    
+
+    section {
+        padding: 0 20px;
+        margin-top: 20px;
+        height:auto;
+       
+        background-color: #cacaca;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    section #about{
+        height: 200px;
+    }
+    .skills{
+        display: flex;
+        flex-wrap: wrap;
+        width: 95vw;
+    }
+    .skl{
+        min-width: 85%;
+        margin-right: 10%;
+        margin-left: 2%;
+    }
+    section.we{
+        min-height: 100vh;
+    }
+    .proj{
+        display: flex;
+        flex-wrap: wrap;
+        width: 95vw;
+    }
+    .prt{
+        min-width: 85%;
+        margin-right: 10%;
+        margin-left: 2%;
+    }
+
+    
+}
